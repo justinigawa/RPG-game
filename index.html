@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Avengers RPG!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/avengers.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-section-title"><p>SUIT UP! It's Time to Fight!</p></div>
+        <div id="main-game-section">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div id="characters-section">
+                        <div class="section-title">Select Your Character</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <div id="selected-character-section">
+                        <div class="section-title">Your Character</div>
+                        <div id="selected-character"></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div id="action">
+                        <div class="character-section">
+                            <div class="section-title">Defender</div>
+                            <div id="defender"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="available-to-attack-section">
+                <div class="section-title">Enemies Available To Attack</div>
+            </div>
+
+            <div class="section-title">Fight Section</div>
+            <div id="fight-section">
+                <button id="attack-button">Attack</button>
+            </div>
+        </div>
+    </div>
+    <div id="gameMessage"></div>
+</body>
+
+</html>
